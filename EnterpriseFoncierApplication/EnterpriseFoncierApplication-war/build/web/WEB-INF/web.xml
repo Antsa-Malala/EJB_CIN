@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>servletFoncier</servlet-name>
+        <servlet-class>servlet.servletFoncier</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Formulaire</servlet-name>
+        <servlet-class>controller.Formulaire</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Transfert</servlet-name>
+        <servlet-class>controller.Transfert</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletFoncier</servlet-name>
+        <url-pattern>/servletFoncier</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Jersey REST Service</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>webservices</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Jersey REST Service</servlet-name>
+        <url-pattern>/rest/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Formulaire</servlet-name>
+        <url-pattern>/Formulaire</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Transfert</servlet-name>
+        <url-pattern>/Transfert</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

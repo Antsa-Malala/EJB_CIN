@@ -1,0 +1,48 @@
+/* Réinitialisation des styles par défaut */
+body, h1 {
+    margin: 300px;
+    padding: 0px;
+}
+
+/* Style pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour le conteneur du contenu */
+.container {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Style pour le titre */
+h1 {
+    font-size: 28px;
+    color: #0074D9;
+    margin-bottom: 20px;
+}
+
+/* Style pour le bouton */
+button {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

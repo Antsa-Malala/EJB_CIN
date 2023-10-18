@@ -1,0 +1,74 @@
+/* Style pour le formulaire */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les labels */
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+select,
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Style pour le bouton "Transferer" */
+input[type="submit"] {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour le titre "Transferer de l'argent" */
+h1 {
+    text-align: center;
+    color: #0074D9;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Style pour les options du sélecteur de devise */
+select option {
+    font-size: 16px;
+}
+
+/* Style pour le conteneur du formulaire */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

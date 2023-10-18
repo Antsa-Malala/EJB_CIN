@@ -1,0 +1,305 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.person-info {
+    font-family: "Arial", sans-serif;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+    .person-info h3 {
+        color: #333;
+        font-size: 24px;
+        margin: 0;
+    }
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.info-label {
+    color: #555;
+    font-weight: bold;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.info-value {
+    color: #333;
+    flex: 2;
+}
+
+
+.allergies-list {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.list-header {
+    color: #333;
+    font-size: 16px;
+}
+
+.allergy-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+
+.allergy-name {
+    color: #555;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.maladies-list {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.list-header {
+    color: #333;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.maladie-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.maladie-row:nth-child(odd) {
+    background-color: #fff;
+}
+
+.antecedents-list {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.list-header {
+    color: #333;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.antecedent-row:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.antecedent-row:nth-child(odd) {
+    background-color: #fff;
+}
+
+.property-list {
+    font-family: "Arial", sans-serif;
+    margin: 20px 0;
+}
+
+.list-header {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+}
+
+.property-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 20px; /* Added spacing between cards */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    flex: 0 0 auto;
+}
+
+    .property-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+.property-title {
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+}
+
+.property-info {
+    color: #555;
+    margin: 5px 0;
+}
+
+    .property-info:last-child {
+        margin-bottom: 0;
+    }
+
+
+.bank-accounts {
+    font-family: "Arial", sans-serif;
+    margin: 20px 0;
+}
+
+.list-header {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bank-card {
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bank-info {
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+}
+
+.account-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.account-title {
+    color: #333;
+    font-size: 18px;
+    margin: 0;
+}
+
+.account-info {
+    color: #555;
+    margin: 5px 0;
+}
+
+.transactions {
+    margin-top: 10px;
+}
+
+.transaction {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.transaction-type {
+    color: #333;
+    font-size: 16px;
+    margin: 0;
+}
+
+.transaction-amount {
+    color: #555;
+    margin: 5px 0;
+}
+
+.transaction-date {
+    color: #555;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+    .transaction-table th, .transaction-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .transaction-table th {
+        background-color: #f2f2f2;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .transaction-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .transaction-table tr:nth-child(odd) {
+        background-color: #fff;
+    }
